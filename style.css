@@ -1,0 +1,524 @@
+body {
+  margin: 0; /*as chrome broswer automatic give margin to nav so it override that*/
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: none;
+}
+#kids {
+  height: 90px;
+  width: 18%;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+#kids a {
+  padding-left: 10px;
+  position: absolute;
+  top: 24px;
+  font-size: 32px;
+  font-family: "Lobster Two", cursive;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  margin: 0%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 35px 5px;
+  list-style: none;
+  width: 100px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+nav ul li:hover a {
+  color: rgb(86, 153, 209);
+}
+nav button {
+  position: relative;
+  left: 90px;
+  top: 30px;
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 120px;
+  border-radius: 15px;
+  background-color: rgb(86, 153, 209);
+}
+nav button a {
+  color: white;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+nav button:hover {
+  background-color: rgb(107, 123, 214);
+}
+
+/* nav bar end  */
+
+/* first section start */
+
+.first-section {
+  height: 600px;
+  width: 100%;
+  background-color: rgb(65, 149, 218);
+  overflow: auto;
+}
+.first-section-left {
+  height: 350px;
+  width: 46%;
+  float: left;
+  margin-top: 100px;
+  margin-left: 20px;
+  color: white;
+  padding: 20px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#btn-2 {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.first-section img {
+  float: right;
+  height: 550px;
+  position: relative;
+  top: 20px;
+  right: 100px;
+}
+.second-section {
+  height: 400px;
+  width: 90%;
+  margin: 65px 60px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.second-section .sub-section {
+  width: 28%;
+  height: 160px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px gainsboro;
+}
+.sub-section-left {
+  height: 100px;
+  width: 25%;
+  float: left;
+  margin-top: 10px;
+}
+.sub-section-left img {
+  height: 40px;
+  width: 64px;
+
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(150deg)
+    brightness(98%) contrast(80%);
+  position: relative;
+  top: 35px;
+  left: 30px;
+}
+.sub-section .sub-section-right {
+  height: 110px;
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+}
+.sub-section .sub-section-right h1 {
+  font-family: "Lobster Two", cursive;
+  font-size: 22px;
+  text-transform: capitalize;
+  padding-left: 20px;
+  padding-bottom: 6px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: rgb(25, 32, 32);
+}
+.sub-section .sub-section-right p {
+  padding-left: 24px;
+  color: rgb(97, 94, 94);
+}
+
+/* classes section start  */
+
+#class-heading {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 55px;
+  font-family: cursive;
+
+  color: rgb(65, 149, 218);
+
+  letter-spacing: -1px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+}
+.classes-list {
+  height: 700px;
+  width: 85%;
+  margin: 30px 90px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+.classes-list .list-one {
+  height: 600px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 2px grey;
+}
+.classes-list .list-one h2 {
+  text-align: center;
+  color: rgb(59, 59, 59);
+  font-weight: lighter;
+  font-family: "Lobster Two", cursive;
+}
+.classes-list .list-one p {
+  color: rgb(91, 100, 109);
+  margin: 15px 0;
+  text-align: center;
+}
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+  height: 100px;
+  color: rgb(71, 71, 71);
+}
+table tr td {
+  border: 1px solid grey;
+  text-align: center;
+}
+
+.classes-list .list-one button {
+  width: 35%;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: rgb(37, 132, 209);
+  border-radius: 25px;
+  margin-left: 100px;
+  color: white;
+  margin-bottom: 5px;
+}
+.classes-list .list-one button:hover {
+  background-color: rgb(18, 105, 175);
+  color: whitesmoke;
+}
+/* ___________________classes setion end  */
+
+/*___________________________ booking portion start_____________________  */
+
+.booking-portion {
+  height: 500px;
+  width: 85%;
+  margin-top: 30px;
+  margin-left: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.book-seat-1 {
+  height: 320px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  box-shadow: 2px 2px 8px 2px grey;
+
+
+  padding: 50px 0px;
+}
+.book-seat-1 h1 {
+  font-family: "Courier New", Courier, monospace;
+
+  font-size: 40px;
+  text-transform: capitalize;
+  padding-left: 12px;
+  color: rgb(91, 90, 170);
+}
+.book-seat-1 p {
+  padding: 10px 18px;
+  line-height: 22px;
+}
+.book-seat-1 li {
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.fa-check {
+  color: rgb(8, 129, 79);
+  padding-right: 4px;
+}
+
+.book-seat-1 button {
+  width: 25%;
+  height: 36px;
+  margin-left: 25px;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(54, 94, 128);
+  box
+}
+.book-seat-1 button a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* for start  */
+
+.book-seat-1 #form-heading {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  background-color: rgb(49, 49, 90);
+  height: 60px;
+  padding-top: 5px;
+}
+input {
+  margin-top: 20px;
+}
+input[type="text"],
+[type="email"],
+[type="submit"] {
+  width: 80%;
+  height: 40px;
+  margin-left: 40px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+.fom {
+  background-color: rgb(81, 207, 211);
+}
+#submit {
+  background-color: rgb(49, 49, 90);
+
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 22px;
+}
+
+/* _______________bookig portion end______________  */
+
+/* _________________________teacher portion start  _______________________ */
+.teacher-main {
+  height: 600px;
+  width: 90%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.teacher-main .img-section-1 {
+  height: 400px;
+  width: 24%;
+  margin-top: 30px;
+}
+.teacher-main .img-section-1 .social-icon {
+  position: relative;
+  bottom: 170px;
+  font-size: 30px;
+}
+.teacher-main .img-section-1 .social-icon .fa {
+  padding: 6px 8px;
+  margin: 0 6px;
+  opacity: 0;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.teacher-main .img-section-1:hover .social-icon .fa {
+  opacity: 1;
+}
+.teacher-main .img-section-1 .fa:hover {
+  background-color: white;
+  color: red;
+}
+.teacher-main .img-section-1:hover img {
+  opacity: 0.3;
+}
+#jolia {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+#eng {
+  font-family: serif;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 12px;
+  font-style: italic;
+  font-weight: lighter;
+  color: grey;
+}
+
+/* _________________________________teacher-portion end ______________________________________________ */
+
+/* ______________________________blog-portion-start_______________________________ */
+
+.blog {
+  height: 480px;
+  width: 90%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog .blog-content {
+  width: 30%;
+  height: 480px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.blog-content .icon {
+  margin: auto;
+}
+.blog-content .blog-btn button {
+  background-color: slateblue;
+  padding: 12px 60px;
+  outline: none;
+  border: none;
+  margin-left: 55px;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.blog-content .blog-btn:hover button {
+  color: red;
+  background-color: rgb(67, 53, 163);
+}
+
+/* ______________________blog end ____________________ */
+
+.footer {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(6, 65, 88);
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.footer .sub-footer {
+  height: 280px;
+  width: 22%;
+  margin-bottom: 70px;
+}
+.footer .sub-footer .footer-social {
+  height: 35px;
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.footer .sub-footer .footer-social .fa {
+  font-size: 18px;
+  border: 1px solid rgb(33, 160, 199);
+  color: rgb(33, 160, 199);
+  border-radius: 50%;
+  padding: 5px 5px;
+  margin-left: 5px;
+}
+.footer .sub-footer .footer-social .fa:hover {
+  color: white;
+  background-color: rgb(33, 160, 199);
+}
+
+.footer .sub-footer ul {
+  margin-left: 10px;
+  list-style: none;
+  margin-top: 14px;
+}
+.footer .sub-footer ul li {
+  padding-top: 10px;
+}
+.footer .sub-footer ul li a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: monospace;
+}
+.footer .sub-footer .fa {
+  padding-right: 8px;
+}
+.footer .sub-footer ul li a:hover {
+  text-decoration: underline;
+}
+.footer .sub-footer .last-form {
+  width: 90%;
+  height: 195px;
+  margin-top: 10px;
+}
+.footer .sub-footer .last-form input {
+  height: 40px;
+  width: 94%;
+  margin-left: 4px;
+  padding-left: 5px;
+  border-radius: 0;
+}
+.footer .sub-footer .last-form input[type="submit"] {
+  margin-left: 5px;
+  border-radius: 25px;
+  color: white;
+  background-color: rgb(33, 160, 199);
+  font-family: monospace;
+  height: 45px;
+}
+.footer .sub-footer .last-form input[type="submit"]:hover {
+  color: red;
+  background-color: rgb(94, 190, 181);
+}
+
+.line {
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid grey;
+  background-color: rgb(6, 65, 88);
+  text-align: center;
+  margin-top: -50px;
+  color: white;
+  padding-top: 20px;
+}
+.line a {
+  color: rgb(33, 160, 199);
+
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: cursive;
+  font-size: 20px;
+}
+/* footer end  */
+
+
